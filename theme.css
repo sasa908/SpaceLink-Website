@@ -61,3 +61,42 @@ button2:hover{
   background-color: rgb(185, 205, 227);
   transition: 0.8s;
 }
+
+@media only screen and (min-width: 700px) {
+    .bubble {
+        height: 100px;
+        margin: 20px;
+    }
+    .bubble:after {
+        bottom: -50px;
+        border-width: 50px 50px 0;
+    }
+    .bubble:before {
+        top: 100px;
+        border-width: 52px 52px 0;
+    }
+    .bubble1 {
+        height: 100px;
+        margin: 20px;
+    }
+    .bubble1:after {
+        bottom: -50px;
+        border-width: 50px 50px 0;
+    }
+    .bubble1:before {
+        top: 100px;
+        border-width: 52px 52px 0;
+    }
+    .bubble2 {
+        height: 100px;
+        margin: 20px;
+    }
+    .bubble2:after {
+        bottom: -50px;
+        border-width: 50px 50px 0;
+    }
+    .bubble2:before {
+        top: 100px;
+        border-width: 52px 52px 0;
+    }
+}
