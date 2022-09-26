@@ -1,26 +1,37 @@
-body{
+@media screen and (min-width: 200px) and (max-width: 1600px){
+  body{
+background-image: linear-gradient(to right top, #07909f, #4693a9, #6896ad, #8299ad, #969eab);
+}
+}
+
+@media only screen and (max-width:1300px) and (orientation: landscape){
+  body{
   margin: 0;
   padding: 0;
-  width: 100%;
-  height: 100%;
-  background: linear-gradient(180.3deg, rgb(221, 221, 221) 5.5%, rgb(110, 136, 161) 90.2%);
+}
 }
 h1{
 font-family: Helvetica;
 text-align: center;
-margin-top: 1%;
+margin-top: 5%;
+margin-left: 5%;
 }
+
+
 p{
 font-family: Helvetica;
 font-size: 100%;
 text-align: center;
-margin-top: 1%;
+margin-top: 5%;
+margin-left: 5%;
 }
 
+
+@media screen and (min-width: 360px) and (max-width: 640px) {
 button1{
   font-family: Helvetica;
   background-color: white ;
-  border-radius: 8px;
+  border-radius: 40px;
   position: absolute;
   padding: 20px 50px;
   align-items: center;
@@ -30,8 +41,110 @@ button1{
   font-weight: bold;
   width: 200px;
   height: 50px;
-  margin-top: 1%;
-  margin-left: 39%;
+  margin-top: 3%;
+  margin-left: 8%;
+  cursor: pointer;
+}
+}
+
+@media screen and (min-width: 411px) and (max-width: 823px) {
+button1{
+  font-family: Helvetica;
+  background-color: white ;
+  border-radius: 40px;
+  position: absolute;
+  padding: 20px 50px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  font-size: 120%;
+  font-weight: bold;
+  width: 200px;
+  height: 50px;
+  margin-top: 3%;
+  margin-left: 15%;
+  cursor: pointer;
+}
+}
+
+@media screen and (min-width: 1000px) {
+button1{
+  font-family: Helvetica;
+  background-color: white ;
+  border-radius: 40px;
+  position: absolute;
+  padding: 20px 50px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  font-size: 120%;
+  font-weight: bold;
+  width: 200px;
+  height: 50px;
+  margin-top: 3%;
+  margin-left: 40%;
+  cursor: pointer;
+}
+}
+
+@media screen and (min-width: 360px) and (max-width: 640px) {
+button2{
+  font-family: Helvetica;
+  background-color: white ;
+  border-radius: 40px;
+  position: absolute;
+  padding: 20px 50px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  font-size: 120%;
+  font-weight: bold;
+  width: 200px;
+  height: 50px;
+  margin-top: 35%;
+  margin-left: 8%;
+  cursor: pointer;
+}
+}
+
+@media screen and (min-width: 411px) and (max-width: 823px) {
+button2{
+  font-family: Helvetica;
+  background-color: white ;
+  border-radius: 40px;
+  position: absolute;
+  padding: 20px 50px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  font-size: 120%;
+  font-weight: bold;
+  width: 200px;
+  height: 50px;
+  margin-top: 35%;
+  margin-left: 15%;
+  cursor: pointer;
+}
+}
+
+@media screen and (min-width: 1000px) {
+button2{
+  font-family: Helvetica;
+  background-color: white ;
+  border-radius: 40px;
+  position: absolute;
+  padding: 20px 50px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  font-size: 120%;
+  font-weight: bold;
+  width: 200px;
+  height: 50px;
+  margin-top: 15%;
+  margin-left: 40%;
+  cursor: pointer;
+}
 }
 
 button1:hover{
@@ -39,64 +152,7 @@ button1:hover{
   transition: 0.8s;
 }
 
-button2{
-  font-family: Helvetica;
-  background-color: white ;
-  border-radius: 8px;
-  position: absolute;
-  padding: 20px 50px;
-  align-items: center;
-  justify-content: center;
-  display: flex;
-  font-size: 120%;
-  font-weight: bold;
-  width: 200px;
-  height: 50px;
-  margin-top: 10%;
-  margin-left: 39%;
-}
-
-
 button2:hover{
   background-color: rgb(185, 205, 227);
   transition: 0.8s;
-}
-
-@media only screen and (min-width: 700px) {
-    .bubble {
-        height: 100px;
-        margin: 20px;
-    }
-    .bubble:after {
-        bottom: -50px;
-        border-width: 50px 50px 0;
-    }
-    .bubble:before {
-        top: 100px;
-        border-width: 52px 52px 0;
-    }
-    .bubble1 {
-        height: 100px;
-        margin: 20px;
-    }
-    .bubble1:after {
-        bottom: -50px;
-        border-width: 50px 50px 0;
-    }
-    .bubble1:before {
-        top: 100px;
-        border-width: 52px 52px 0;
-    }
-    .bubble2 {
-        height: 100px;
-        margin: 20px;
-    }
-    .bubble2:after {
-        bottom: -50px;
-        border-width: 50px 50px 0;
-    }
-    .bubble2:before {
-        top: 100px;
-        border-width: 52px 52px 0;
-    }
 }
