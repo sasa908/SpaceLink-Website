@@ -1,6 +1,6 @@
 @media screen and (min-width: 200px) and (max-width: 1600px){
   body{
-background-image: linear-gradient(to right top, #07909f, #4693a9, #6896ad, #8299ad, #969eab);
+background-image: linear-gradient(to right top, #a1a1a1, #94bbe9, #a1a1a1, #94bbe9);
 }
 }
 
@@ -24,6 +24,66 @@ font-size: 100%;
 text-align: center;
 margin-top: 5%;
 margin-left: 5%;
+}
+
+@media screen and (orientation: landscape){
+button1{
+  font-family: Helvetica;
+  background-color: white ;
+  border-radius: 40px;
+  position: absolute;
+  padding: 20px 50px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  font-size: 120%;
+  font-weight: bold;
+  width: 200px;
+  height: 50px;
+  margin-top: 2%;
+  margin-left: 39%;
+  cursor: pointer;
+}
+}
+
+@media screen and (orientation: landscape){
+button2{
+  font-family: Helvetica;
+  background-color: white ;
+  border-radius: 40px;
+  position: absolute;
+  padding: 20px 50px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  font-size: 120%;
+  font-weight: bold;
+  width: 200px;
+  height: 50px;
+  margin-top: 26%;
+  margin-left: 39%;
+  cursor: pointer;
+}
+}
+
+@media screen and (orientation: landscape){
+button3{
+  font-family: Helvetica;
+  background-color: white ;
+  border-radius: 40px;
+  position: absolute;
+  padding: 20px 50px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  font-size: 120%;
+  font-weight: bold;
+  width: 200px;
+  height: 50px;
+  margin-top: 50%;
+  margin-left: 39%;
+  cursor: pointer;
+}
 }
 
 @media screen and (min-width: 280px) and (max-width: 600px) {
@@ -446,6 +506,188 @@ button3{
   cursor: pointer;
 }
 }
+
+@media screen and (orientation: landscape) and (max-width: 812px){
+button1{
+  font-family: Helvetica;
+  background-color: white ;
+  border-radius: 40px;
+  position: absolute;
+  padding: 20px 50px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  font-size: 120%;
+  font-weight: bold;
+  width: 200px;
+  height: 50px;
+  margin-top: 2%;
+  margin-left: 33%;
+  cursor: pointer;
+}
+}
+
+@media screen and (orientation: landscape) and (max-width: 812px){
+button2{
+  font-family: Helvetica;
+  background-color: white ;
+  border-radius: 40px;
+  position: absolute;
+  padding: 20px 50px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  font-size: 120%;
+  font-weight: bold;
+  width: 200px;
+  height: 50px;
+  margin-top: 26%;
+  margin-left: 33%;
+  cursor: pointer;
+}
+}
+
+@media screen and (orientation: landscape) and (max-width: 812px){
+button3{
+  font-family: Helvetica;
+  background-color: white ;
+  border-radius: 40px;
+  position: absolute;
+  padding: 20px 50px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  font-size: 120%;
+  font-weight: bold;
+  width: 200px;
+  height: 50px;
+  margin-top: 50%;
+  margin-left: 33%;
+  cursor: pointer;
+}
+}
+
+
+@media screen and (orientation: landscape) and (max-width: 667px){
+button1{
+  font-family: Helvetica;
+  background-color: white ;
+  border-radius: 40px;
+  position: absolute;
+  padding: 20px 50px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  font-size: 120%;
+  font-weight: bold;
+  width: 200px;
+  height: 50px;
+  margin-top: 2%;
+  margin-left: 28%;
+  cursor: pointer;
+}
+}
+
+@media screen and (orientation: landscape) and (max-width: 667px){
+button2{
+  font-family: Helvetica;
+  background-color: white ;
+  border-radius: 40px;
+  position: absolute;
+  padding: 20px 50px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  font-size: 120%;
+  font-weight: bold;
+  width: 200px;
+  height: 50px;
+  margin-top: 26%;
+  margin-left: 28%;
+  cursor: pointer;
+}
+}
+
+@media screen and (orientation: landscape) and (max-width: 667px){
+button3{
+  font-family: Helvetica;
+  background-color: white ;
+  border-radius: 40px;
+  position: absolute;
+  padding: 20px 50px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  font-size: 120%;
+  font-weight: bold;
+  width: 200px;
+  height: 50px;
+  margin-top: 50%;
+  margin-left: 28%;
+  cursor: pointer;
+}
+}
+
+@media screen and (orientation: landscape)and (max-width: 400px){
+button1{
+  font-family: Helvetica;
+  background-color: white ;
+  border-radius: 40px;
+  position: absolute;
+  padding: 20px 50px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  font-size: 120%;
+  font-weight: bold;
+  width: 200px;
+  height: 50px;
+  margin-top: 2%;
+  margin-left: 39%;
+  cursor: pointer;
+}
+}
+
+@media screen and (orientation: landscape) and (max-width: 400px){
+button2{
+  font-family: Helvetica;
+  background-color: white ;
+  border-radius: 40px;
+  position: absolute;
+  padding: 20px 50px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  font-size: 120%;
+  font-weight: bold;
+  width: 200px;
+  height: 50px;
+  margin-top: 26%;
+  margin-left: 39%;
+  cursor: pointer;
+}
+}
+
+@media screen and (orientation: landscape) and (max-width: 400px){
+button3{
+  font-family: Helvetica;
+  background-color: white ;
+  border-radius: 40px;
+  position: absolute;
+  padding: 20px 50px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  font-size: 120%;
+  font-weight: bold;
+  width: 200px;
+  height: 50px;
+  margin-top: 50%;
+  margin-left: 39%;
+  cursor: pointer;
+}
+}
+
 
 button1:hover{
   background-color: rgb(185, 205, 227);
